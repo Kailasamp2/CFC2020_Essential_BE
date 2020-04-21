@@ -1,6 +1,6 @@
 applications:
 - path: ./target/essentialsneeds-0.0.1-SNAPSHOT.war
-  memory: 256M
+  memory: 512M
   instances: 1
   domain: au-syd.mybluemix.net
   name: covid19-essentials
