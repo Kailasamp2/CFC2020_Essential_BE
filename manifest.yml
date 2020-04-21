@@ -5,10 +5,6 @@ applications:
   domain: au-syd.mybluemix.net
   name: covid19-essentials
   host: null
-  disk_quota: 512M
+  disk_quota: 1024M
   buildpacks: java_buildpack
   health-check-type: none
-  env:   
-        IBM_LIBERTY_LICENSE: L-MCAO-9SYMVC   
-        JAVA_HOME: .java-buildpack/open_jdk_jre/bin/
-        JVM: openjdk
